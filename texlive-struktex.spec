@@ -6,7 +6,7 @@
 # catalog-version 133
 Name:		texlive-struktex
 Version:	133
-Release:	1
+Release:	2
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/struktex
