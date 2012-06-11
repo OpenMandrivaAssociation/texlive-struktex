@@ -1,12 +1,12 @@
-# revision 19845
+# revision 25916
 # category Package
 # catalog-ctan /macros/latex/contrib/struktex
-# catalog-date 2010-09-22 17:42:54 +0200
+# catalog-date 2012-04-11 11:11:10 +0200
 # catalog-license lppl1.2
-# catalog-version 133
+# catalog-version 141
 Name:		texlive-struktex
-Version:	133
-Release:	2
+Version:	141
+Release:	1
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/struktex
@@ -45,7 +45,7 @@ picture environment (using pict2e for preference).
 %{_texmfdistdir}/tex/latex/struktex/struktxp.sty
 %doc %{_texmfdistdir}/doc/latex/struktex/LIESMICH
 %doc %{_texmfdistdir}/doc/latex/struktex/README
-%doc %{_texmfdistdir}/doc/latex/struktex/THIS_IS_VERSION_v133
+%doc %{_texmfdistdir}/doc/latex/struktex/THIS_IS_VERSION_v141
 %doc %{_texmfdistdir}/doc/latex/struktex/getversion.tex
 %doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-0.nss
 %doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-1.tex
