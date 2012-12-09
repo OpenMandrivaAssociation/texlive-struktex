@@ -70,3 +70,21 @@ picture environment (using pict2e for preference).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 141-1
++ Revision: 805082
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 133-2
++ Revision: 756255
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 133-1
++ Revision: 719595
+- texlive-struktex
+- texlive-struktex
+- texlive-struktex
+- texlive-struktex
+
