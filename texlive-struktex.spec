@@ -6,7 +6,7 @@
 # catalog-version 141
 Name:		texlive-struktex
 Version:	141
-Release:	8
+Release:	9
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/struktex
