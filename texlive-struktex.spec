@@ -1,12 +1,6 @@
-# revision 25916
-# category Package
-# catalog-ctan /macros/latex/contrib/struktex
-# catalog-date 2012-04-11 11:11:10 +0200
-# catalog-license lppl1.2
-# catalog-version 141
 Name:		texlive-struktex
-Version:	141
-Release:	9
+Version:	2.2b6
+Release:	1
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/struktex
@@ -39,27 +33,10 @@ picture environment (using pict2e for preference).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/struktex/strukdoc.sty
-%{_texmfdistdir}/tex/latex/struktex/struktex.sty
-%{_texmfdistdir}/tex/latex/struktex/struktxf.sty
-%{_texmfdistdir}/tex/latex/struktex/struktxp.sty
-%doc %{_texmfdistdir}/doc/latex/struktex/LIESMICH
-%doc %{_texmfdistdir}/doc/latex/struktex/README
-%doc %{_texmfdistdir}/doc/latex/struktex/THIS_IS_VERSION_v141
-%doc %{_texmfdistdir}/doc/latex/struktex/getversion.tex
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-0.nss
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-1.tex
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-2.tex
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-3.tex
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex-test-4.tex
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex.de.pdf
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex.el
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex.en.pdf
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex.makemake
-%doc %{_texmfdistdir}/doc/latex/struktex/struktex.mk
+%{_texmfdistdir}/tex/latex/struktex
+%doc %{_texmfdistdir}/doc/latex/struktex
 #- source
-%doc %{_texmfdistdir}/source/latex/struktex/struktex.dtx
-%doc %{_texmfdistdir}/source/latex/struktex/struktex.ins
+%doc %{_texmfdistdir}/source/latex/struktex
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,21 +47,3 @@ picture environment (using pict2e for preference).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 141-1
-+ Revision: 805082
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 133-2
-+ Revision: 756255
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 133-1
-+ Revision: 719595
-- texlive-struktex
-- texlive-struktex
-- texlive-struktex
-- texlive-struktex
-
