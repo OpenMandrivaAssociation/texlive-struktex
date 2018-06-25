@@ -1,5 +1,5 @@
 Name:		texlive-struktex
-Version:	2.317ga8f1af9
+Version:	2.3c0g7d3fc5b
 Release:	1
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
