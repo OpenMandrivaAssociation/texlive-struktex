@@ -1,13 +1,13 @@
 Name:		texlive-struktex
-Version:	2.3c0g7d3fc5b
+Version:	47931
 Release:	1
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/struktex
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ conventions for alternatives, etc. Diagrams are drawn using the
 picture environment (using pict2e for preference).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +40,8 @@ picture environment (using pict2e for preference).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
