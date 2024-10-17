@@ -3,7 +3,7 @@ Version:	47931
 Release:	2
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/struktex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/struktex
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/struktex.doc.r%{version}.tar.xz
