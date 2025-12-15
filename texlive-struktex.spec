@@ -1,6 +1,6 @@
 Name:		texlive-struktex
-Version:	47931
-Release:	2
+Version:	75565
+Release:	1
 Summary:	Draw Nassi-Schneidermann charts
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/struktex
